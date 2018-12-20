@@ -25,7 +25,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/scripts/vendors/extjs/ext-all.js",
+              "src/scripts/vendors/extjs/theme-triton.js",
+              "src/scripts/vendors/scheduler/sch-all.js",
+              "src/scripts/vendors/gantt/gnt-all-thin.js"
+            ]
           },
           "configurations": {
             "production": {

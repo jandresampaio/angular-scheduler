@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    template: `<h1>{{title}}</h1>
+                <scheduler></scheduler>`
 })
-export class AppComponent {
-  title = 'angular-scheduler';
+
+export class AppComponent implements OnInit {
+    title      = 'Angular 7 - Scheduler Demo';
+    eventTitle = '';
+
+    ngOnInit(){
+       
+    }
+
 }
