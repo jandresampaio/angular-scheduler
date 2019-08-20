@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 
 export class AppComponent implements OnInit {
-    title      = 'Angular 7 - Scheduler Demo';
+    title      = 'Angular 8 - Scheduler Demo';
     eventTitle = '';
 
     ngOnInit(){
