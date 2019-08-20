@@ -93,6 +93,14 @@ export class SchedulerComponent implements AfterContentInit, OnInit, OnDestroy {
                 }
             },
 
+            initComponent: function() {
+                var me = this;
+                Ext.apply(me, {
+                    rowHeight: 18                 
+                });
+
+                this.callParent(arguments);
+            },
     
         
         });
